@@ -6,9 +6,9 @@ public static class Program
 {
     public static void Main(string[] args)
     {
-        int[] array = [12, 3, 1, 2, -6, 5, -8, 6];
-        int targetSum = 0;
-        List<int[]> result = ThreeSum.Run(array, targetSum);
+        int[] arrayOne = [-1, 5, 10, 20, 28, 3];
+        int[] arrayTwo = [26, 134, 135, 15, 17];
+        int[] result = SmallestDifference.Run(arrayOne, arrayTwo);
 
         Console.ReadLine();
     }
