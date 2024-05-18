@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.11
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E000996F-9800-44BF-B2CB-AE7A6CDF5E01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "algoexpert", "src\algoexpert\algoexpert.csproj", "{78DDE910-A94A-4B8E-B790-B8D2F89CEB78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78DDE910-A94A-4B8E-B790-B8D2F89CEB78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78DDE910-A94A-4B8E-B790-B8D2F89CEB78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78DDE910-A94A-4B8E-B790-B8D2F89CEB78}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{78DDE910-A94A-4B8E-B790-B8D2F89CEB78}.Debug|x64.Build.0 = Debug|Any CPU
+		{78DDE910-A94A-4B8E-B790-B8D2F89CEB78}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{78DDE910-A94A-4B8E-B790-B8D2F89CEB78}.Debug|x86.Build.0 = Debug|Any CPU
+		{78DDE910-A94A-4B8E-B790-B8D2F89CEB78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78DDE910-A94A-4B8E-B790-B8D2F89CEB78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78DDE910-A94A-4B8E-B790-B8D2F89CEB78}.Release|x64.ActiveCfg = Release|Any CPU
+		{78DDE910-A94A-4B8E-B790-B8D2F89CEB78}.Release|x64.Build.0 = Release|Any CPU
+		{78DDE910-A94A-4B8E-B790-B8D2F89CEB78}.Release|x86.ActiveCfg = Release|Any CPU
+		{78DDE910-A94A-4B8E-B790-B8D2F89CEB78}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C9C1670C-E5D8-4FD7-8CAA-6CA97AEFED2E}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{78DDE910-A94A-4B8E-B790-B8D2F89CEB78} = {E000996F-9800-44BF-B2CB-AE7A6CDF5E01}
+	EndGlobalSection
+EndGlobal
