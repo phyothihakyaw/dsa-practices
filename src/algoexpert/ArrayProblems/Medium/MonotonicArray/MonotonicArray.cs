@@ -1,36 +1,25 @@
-namespace algoexpert.ArrayProblems.Medium.MonotonicArray;
+namespace algoexpert;
 
 public static class MonotonicArray
 {
-    public static bool Run(int[] array) {
+    public static bool Run(int[] array)
+    {
+        bool isIncreasing = true;
+        bool isDecreasing = true;
+
         for (int i = 0; i < array.Length - 1; i++)
         {
-            bool isDecreasingArray = array[i] > array[array.Length];
-
-            if (isDecreasingArray)
+            if (array[i] < array[i + 1])
             {
-                if (array[i] >= array[i+1])
-                {
-                    continue;
-                }
-                else
-                {
-                    return false;
-                }
+                isDecreasing = false;
             }
-            else
+
+            if (array[i] > array[i + 1])
             {
-                if (array[i] <= array[i + 1])
-                {
-                    continue;
-                }
-                else
-                {
-                    return false;
-                }
+                isIncreasing = false;
             }
         }
 
-        return true;
+        return isIncreasing || isDecreasing;
     }
 }

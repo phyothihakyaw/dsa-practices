@@ -6,11 +6,10 @@ public static class Program
 {
     public static void Main(string[] args)
     {
-        List<int> arr = [2, 1, 2, 2, 3, 5, 4, 2, 2, 2];
-        int toMove = 2;
-        List<int> result = MoveElementToEnd.Run(arr, toMove);
+        int[] arr = [-1, -5, -10, -1100, -1100, -1101, -1102, -9001];
+        bool result = MonotonicArray.Run(arr);
 
-        result.ForEach(x => Debug.WriteLine(x));
+        Console.WriteLine("result:: {0}", result);
         Console.ReadLine();
     }
 }
