@@ -6,10 +6,18 @@ public static class Program
 {
     public static void Main(string[] args)
     {
-        int[] arr = [-1, -5, -10, -1100, -1100, -1101, -1102, -9001];
-        bool result = MonotonicArray.Run(arr);
+        int[,] arr =
+        {
+            {27, 12, 35, 26},
+            {25, 21, 94, 11},
+            {19, 96, 43, 56},
+            {55, 36, 10, 18},
+            {96, 83, 31, 94},
+            {93, 11, 90, 16}
+        };
+        List<int> result = SpiralTraverse.Run(arr);
 
-        Console.WriteLine("result:: {0}", result);
+        result.ForEach(Console.WriteLine);
         Console.ReadLine();
     }
 }
